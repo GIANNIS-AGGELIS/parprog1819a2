@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 #define QUEUE_SIZE 1000000
-#define JOB 5000//for magnutude of array
+#define JOB 5000//  MEGEFOS TOY PINAKA
 #define THREADS 4
 
 #define WORK 0
@@ -26,14 +26,14 @@ int partision(double *a,int n);
 
 
 
-//H 
+//H DOMH GIA THN OYRA
 struct new_message{
     int type;
     int position;//start of array
     int possition_of_the_end;
 };
 
-// KAFOLIKH PINAKAW GIA THN OYRA
+// KAFOLIKH PINAKAS GIA THN OYRA
 struct new_message new_queuen_message[QUEUE_SIZE];
 
 
@@ -164,7 +164,7 @@ void *thread_func(void *params)
 
 int main(int argc, char** argv)
 {
-    //dimiourgo enan pinaka apo threads
+    //DIMIOYRGISE ENAN PINAKA PO THREEADS
     pthread_t mythreads[THREADS];
     struct new_message params;
     int i =0;
